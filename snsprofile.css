@@ -1,0 +1,150 @@
+
+body {
+    background-color: #f7f9fc;
+}
+
+.white-box {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile{
+    padding: 20px;
+    border-right: 3px solid #eee;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.profile p{
+    margin-bottom: 10px;
+}
+
+.profile button {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.intro div {
+    font-size: 15px;
+    padding-left: 20px
+}
+
+.horizen{
+    padding: 20px;
+}
+
+.menu {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #6fbaf8;
+    border-bottom: 3px solid #6fbaf8;
+}
+
+.menu-right {
+    border-bottom: 3px solid #eee;
+}
+
+.works{
+    margin-bottom: 100px;
+}
+
+.about {
+    font-size: 15px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #eee;
+}
+
+.skills{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.circle {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.hashtag {
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.side-bar {
+    text-align: center;
+}
+
+.side-bar p {
+    margin-top: 20px;
+}
+
+.side-bar a {
+    margin-top: 10px;
+    display: block;
+    font-size: 10px;
+}
+
+.side-bar button {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.know .hrz{
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 3px solid #eee;
+}
+
+.media-know {
+    font-size: 10px;
+}
+
+.media-know strong {
+    font-size: 13px;
+}
+
+.media-know img {
+    width: 50px;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer i {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #6fbaf8;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-top: 10px; 
+    
+}
+
+@media screen and (max-width:768px) {
+    .profile{
+        border: none;
+    }
+    .works{
+        margin-bottom: 10px;
+    }
+}
