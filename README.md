@@ -1,2 +1,2 @@
 # SNS-Profile
-### page url : sangminlee98.github.io/SNS-Profile/snsprofile.html
+### page url : https://sangminlee98.github.io/SNS-Profile/snsprofile.html
